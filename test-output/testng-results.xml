@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="5" total="6" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-15T22:42:27 IST" name="Suite" finished-at="2022-11-15T22:42:51 IST" duration-ms="24312">
+    <groups>
+      <group name="Regression">
+        <method signature="Group1Test.loginToApp1Test()[pri:0, instance:TestCases.Group1Test@6bd61f98]" name="loginToApp1Test" class="TestCases.Group1Test"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2022-11-15T22:42:27 IST" name="Test" finished-at="2022-11-15T22:42:51 IST" duration-ms="24312">
+      <class name="TestCases.Group1Test">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.Group1Test@6bd61f98]" started-at="2022-11-15T22:42:27 IST" name="setup" finished-at="2022-11-15T22:42:49 IST" duration-ms="21858" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginToApp1Test()[pri:0, instance:TestCases.Group1Test@6bd61f98]" started-at="2022-11-15T22:42:49 IST" name="loginToApp1Test" finished-at="2022-11-15T22:42:50 IST" duration-ms="969" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp1Test -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:TestCases.Group1Test@6bd61f98]" started-at="2022-11-15T22:42:50 IST" name="closeBrowser" finished-at="2022-11-15T22:42:51 IST" duration-ms="1396" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginToApp1Test status=SUCCESS method=Group1Test.loginToApp1Test()[pri:0, instance:TestCases.Group1Test@6bd61f98] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestCases.Group1Test -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
